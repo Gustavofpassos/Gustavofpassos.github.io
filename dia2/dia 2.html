@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2º dia - 7DaysOfCode</title>
+    <link rel='stylesheet' href='dia2.css'>
+</head>
+<body>
+    <h2style="text-align: center;>Dia 2</h2>
+
+<fieldset class="fieldset">
+    <legend>Lógica JS 2/7: Variáveis</legend>
+
+    <main>
+        <div class="perguntas">
+            <p>Qual o seu nome?</p>
+            <input type="text" name="nome" id="nome" placeholder="Digite aqui seu nome"><br>
+            <p >Quantos anos você tem?</p>
+            <input type="number" name="idade" placeholder="Ex: 27" id="idade"><br>
+            <p> Qual linguagem de programação você está estudando?</p>
+            <input type="text" name="linguagem" placeholder="Ex: JavaScript" id="linguagem">
+
+            
+            <button class="botao" id="enviar" onclick="enviarMensagem()"> Enviar </button>
+            <input type="button" class="botao" onclick="history.back()" value="Voltar">
+
+        </div>
+
+        <div id="respostas">
+            
+        </div>
+
+    </main>
+    
+</fieldset>
+    <script src='dia2.js'></script>
+
+    </body>
+</html>
